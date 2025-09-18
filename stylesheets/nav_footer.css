@@ -1,0 +1,107 @@
+nav {
+  z-index: 600;
+}
+
+/* Botão Pular para Conteúdo Principal */
+
+nav .logo .pularNavegacao {
+  background-color: #607989;
+  color: white;
+}
+
+/* Barra */
+.barranav {
+  transition: .7s;
+}
+
+/* Caixa do Logotipo */
+
+nav .logo img {
+  background-color: #01837D;
+}
+
+nav .barra {
+  position: absolute;
+  left: 0;
+  background-color: #01837D;
+  transition: 1s;
+  width: 200px;
+  height: 106px;
+  top: 0;
+  left: 0;
+}
+
+nav .barra.barraexpandida {
+  background-color: #01837D;
+  width: 100%;
+  height: 10px;
+  overflow: hidden;
+  transition: .7;
+}
+
+/* nav .logo.barraexpandida {
+  overflow: hidden;
+  height: 0px;
+  transition: .7;
+} */
+
+/* Botões do Navbar */
+
+nav .nav-link {
+  padding-top: 25px;
+  background-color: #01837D;
+  color: #fff;
+  /* border: 1px solid #DFE6E8; */
+}
+
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .nav-link[aria-expanded="true"] {
+  background-color: #309a95;
+  color: #fff;
+}
+
+nav .dropdown-menu-right {
+  border: 1px solid #DFE6E8;
+  margin: 0;
+}
+
+
+/* Rodapé */
+
+footer {
+  /* border-top: 1px solid #fff; */
+}
+
+footer, footer .aval-rea .btn-secondary {
+  background-color: #c9f5e6;
+  color: #354551;
+}
+
+footer .aval-rea .btn-secondary:focus {
+  background-color: #7AD2B3;
+}
+
+footer .aval-rea .btn-secondary:hover {
+  background-color: #7AD2B3;
+}
+
+/* .btn-secondary:hover {
+  background-color: white;
+} */
+
+/* Main */
+
+main {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+
+  main {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+}
